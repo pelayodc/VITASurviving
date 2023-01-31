@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171e01fd3fabdb74ab3edb1ba5e8a92c, type: 3}
+  m_Name: ThrowingKnifeII
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Throwing Knife II
+  Icon: {fileID: 21300000, guid: 05e95cd510168d640a98c2b61c06e74b, type: 3}
+  weaponData: {fileID: 11400000, guid: 3935c224c84532a43a02ce61d4ea9434, type: 2}
+  weaponUpgradeStats:
+    damage: 4
+    timeToAttack: 0
+    numberOfAttacks: 0
+  upgrades:
+  - {fileID: 11400000, guid: a34e72d7660724e4ab1fd8b96eea75a9, type: 2}

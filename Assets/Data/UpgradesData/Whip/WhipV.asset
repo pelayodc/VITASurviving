@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171e01fd3fabdb74ab3edb1ba5e8a92c, type: 3}
+  m_Name: WhipV
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Whip V
+  Icon: {fileID: 21300000, guid: 8bd15df2404c96c4085326361a7ce9b3, type: 3}
+  weaponData: {fileID: 11400000, guid: 4be5ba05b23050e4499e33c6d70fb8fc, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttacks: 1
+  item: {fileID: 0}
+  ItemUpgradeStats:
+    armor: 0
+    maxHealthPercent: 0
+    healregen: 0
+    speed: 0
+  upgrades: []

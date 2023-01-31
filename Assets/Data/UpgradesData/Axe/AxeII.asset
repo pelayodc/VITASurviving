@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171e01fd3fabdb74ab3edb1ba5e8a92c, type: 3}
+  m_Name: AxeII
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Axe II
+  Icon: {fileID: 21300000, guid: 3815f3a4467459240ae4306fa25e57ae, type: 3}
+  weaponData: {fileID: 11400000, guid: ede293407df313f46a8246aa9ccbd24f, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttacks: 1
+  item: {fileID: 0}
+  ItemUpgradeStats:
+    armor: 0
+    maxHealthPercent: 0
+    healregen: 0
+    expbonus: 0
+    speed: 0
+    spr: {fileID: 0}
+  upgrades:
+  - {fileID: 11400000, guid: 5d3f1645a0ba24c44b09af3ec9d450ee, type: 2}

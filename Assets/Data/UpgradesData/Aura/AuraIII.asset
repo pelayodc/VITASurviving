@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171e01fd3fabdb74ab3edb1ba5e8a92c, type: 3}
+  m_Name: AuraIII
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Aura III
+  Icon: {fileID: 21300000, guid: a0cbf47f41b3ac94490b62c3c716efd7, type: 3}
+  weaponData: {fileID: 11400000, guid: a9413ada86759514cb57cc5b03dc5607, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0.25
+    numberOfAttacks: 0
+  item: {fileID: 0}
+  ItemUpgradeStats:
+    armor: 0
+    maxHealthPercent: 0
+    healregen: 0
+    expbonus: 0
+    speed: 0
+    spr: {fileID: 0}
+  upgrades:
+  - {fileID: 11400000, guid: 4726f4aa40adc374a849ae06c81cb8f4, type: 2}

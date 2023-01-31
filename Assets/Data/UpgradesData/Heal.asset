@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171e01fd3fabdb74ab3edb1ba5e8a92c, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  upgradeType: 5
+  Name: Heal
+  Icon: {fileID: 21300002, guid: 844c34ed89cffc34c9cd358ca356d709, type: 3}
+  weaponData: {fileID: 0}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttacks: 0
+  item: {fileID: 0}
+  ItemUpgradeStats:
+    armor: 0
+    maxHealthPercent: 0
+    healregen: 0
+    speed: 0
+    spr: {fileID: 0}
+  upgrades: []

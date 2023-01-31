@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171e01fd3fabdb74ab3edb1ba5e8a92c, type: 3}
+  m_Name: ArmorIII
+  m_EditorClassIdentifier: 
+  upgradeType: 1
+  Name: Armor III
+  Icon: {fileID: 21300000, guid: e09f57a1dd673744c822ff1e048711a9, type: 3}
+  weaponData: {fileID: 0}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    numberOfAttacks: 0
+  item: {fileID: 11400000, guid: a546663a3bc4f8b4f8110435cc515b43, type: 2}
+  ItemUpgradeStats:
+    armor: 1
+    maxHealthPercent: 0
+    healregen: 0
+    expbonus: 0
+    speed: 0
+    spr: {fileID: 0}
+  upgrades: []
