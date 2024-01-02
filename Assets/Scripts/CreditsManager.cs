@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CreditsManager : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class CreditsManager : MonoBehaviour {
 	public void Show()
     {
         pnlCredits.SetActive(true);
+        pnlCredits.GetComponentInChildren<Button>().Select();
     }
 
     public void Hide()

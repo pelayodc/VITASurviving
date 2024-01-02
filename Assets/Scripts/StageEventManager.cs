@@ -27,21 +27,33 @@ public class StageEventManager : MonoBehaviour {
             switch(stageData.stageEvents[eventIndexer].eventType) {
                 case EventType.endLevel:
                     FindObjectOfType<PauseMenu>().ShowEndLevel();
+                    eventIndexer += 1;
                     break;
                 case EventType.bossSpawn:
-                    enemiesManager.SpawnBoss(stageData.stageEvents[eventIndexer].enemyToSpawn);
+                    enemiesManager.SpawnMiniBoss(stageData.stageEvents[eventIndexer].enemyToSpawn);
+                    eventIndexer += 1;
                     break;
                 case EventType.changeEnemy:
                     enemiesManager.ChangeEnemy(stageData.stageEvents[eventIndexer].enemyToSpawn);
+                    eventIndexer += 1;
                     break;
                 case EventType.hordeSpawn:
                     count = stageData.stageEvents[eventIndexer].count;
                     enemy = stageData.stageEvents[eventIndexer].enemyToSpawn;
                     StartCoroutine(ToSpawn());
+                    eventIndexer += 1;
+                    break;
+                case EventType.bossEvent:
+                    Debug.Log(eventIndexer);
+                    if (!stageData.stageEvents[eventIndexer].done)
+                    {
+                        stageData.stageEvents[eventIndexer].done = true;
+                        enemiesManager.SpawnBoss(stageData.stageEvents[eventIndexer].enemyToSpawn);
+                        eventIndexer += 1;
+                    }
                     break;
             }
 
-            eventIndexer += 1;
         }
     }
 

@@ -1,6 +1,6 @@
 PSP2
 PlayerPath?
-C:/Users/pelay/Documents/Surviving/vitaSurviving
+C:/Users/pelay/Desktop/VITASurviving-main/vs11
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/Essential.unity
@@ -99,6 +99,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 0300b2708aa7d8638a9715d76dcf863a Cinemachine.dll:Cinemachine.CinemachineExternalCamera
+01a31604fc90c6322feb4b3cacfd6495 Assembly-CSharp.dll:.MenuManager
 3119ca65a0fd21459b807b4b54f78bc4 Cinemachine.dll:Cinemachine.CinemachineStoryboard
 db06fb7a4a1fe2b02c84a0952255d502 Cinemachine.dll:.CinemachineCameraOffset
 d9dd987475a9b14ba88e2e5dda30e678 Assembly-CSharp.dll:.CreditsManager
@@ -144,12 +145,13 @@ d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-3c07a64b83007bb0e013b9e4a38fd37f Assembly-CSharp.dll:.StageData
+cf1ac5657eecb4b5ae7b63aacd163359 Assembly-CSharp.dll:.StageData
 0ddb2c46096a1e59e0dce07886ce4769 Cinemachine.dll:Cinemachine.Timeline.CinemachineTrack
 9aca43991ed8446df15adb90e165ca28 Assembly-CSharp.dll:.UpgradesHUD
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 4fea1484e074e110e18ef984947b056b Cinemachine.dll:Cinemachine.CinemachineFramingTransposer
-8e6822fed3d88d355927835ef8271250 Assembly-CSharp.dll:.GameManager
+e0d3d6458c953eedce72e1b65ac82a4e Assembly-CSharp.dll:UnityEngine.UI.MultiLanguageText
+daa113a9a2c5482db547709be30ce16f Assembly-CSharp.dll:.GameManager
 99eeac81a1aceb285089376a418e338d Cinemachine.dll:Cinemachine.CinemachinePOV
 85abb8d34aa02aa4b24219930276520f Assembly-CSharp.dll:.StageTime
 62bbee7bb516cbec928ca33b371c2da0 Assembly-CSharp.dll:.VolumeModify
@@ -199,7 +201,7 @@ b115d1c7d4f8b9d7bf26a70bca4dabb3 Cinemachine.dll:Cinemachine.CinemachineBlendLis
 72a8523b432c0a5317826b7a9e0a0e79 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.PassiveItems
 ba825bf41cd28c6ead317ff94d068ac0 Cinemachine.dll:Cinemachine.CinemachineMixingCamera
-edcd02ad16d92c101d18343291f186e7 Assembly-CSharp.dll:.PauseMenu
+c41ea006e16b788dbca753af3998af51 Assembly-CSharp.dll:.PauseMenu
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 60c24672f752e597ba61f2e9197ca323 Cinemachine.dll:Cinemachine.Timeline.CinemachineShot
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -234,6 +236,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 095bbc0922f4e421b9500910df32b695 Assembly-CSharp.dll:.CoinPickUpObject
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
+5f65e7f70157b59e4cfcc8c142e4b1d9 Assembly-CSharp.dll:.BossBarController
 40b0dde34bb14c63fccbcf3465697fec Assembly-CSharp.dll:.ExpBar
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 3440e114848660940aab66a2e380929b Cinemachine.dll:Cinemachine.CinemachineSmoothPath

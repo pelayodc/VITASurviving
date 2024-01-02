@@ -8,7 +8,8 @@ public enum EventType
     endLevel,
     hordeSpawn,
     bossSpawn,
-    changeEnemy
+    changeEnemy,
+    bossEvent
 }
 
 [Serializable]
@@ -18,6 +19,9 @@ public class StageEvent
     public float time;
     public GameObject enemyToSpawn;
     public int count;
+
+    [HideInInspector]
+    public bool done = false;
 }
 
 [CreateAssetMenu]

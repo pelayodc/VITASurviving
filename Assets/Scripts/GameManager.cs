@@ -11,5 +11,6 @@ public class GameManager : MonoBehaviour {
         instance = this;
     }
 
+    public BossBarController bossBar;
     public Transform playerTransform;
 }

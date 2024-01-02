@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{BDE767D4-29F6-FB45-F09D-840A3E0A9650}</ProjectGuid>
+    <ProjectGuid>{31684AC7-E1B8-16B8-C954-43980565A29E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,6 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MultiLanguageTexts\Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\MultiLanguageTexts\Assets\Scripts\MultiLanguageManager.cs" />
+    <Compile Include="Assets\MultiLanguageTexts\Assets\Scripts\MultiLanguageText.cs" />
+    <Compile Include="Assets\MultiLanguageTexts\Assets\Scripts\Traduction.cs" />
+    <Compile Include="Assets\Scripts\BossBarController.cs" />
     <Compile Include="Assets\Scripts\ChangelogManager.cs" />
     <Compile Include="Assets\Scripts\CoinPickUpObject.cs" />
     <Compile Include="Assets\Scripts\CreditsManager.cs" />
@@ -124,27 +129,28 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\MultiLanguageTexts\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/pelay/Documents/Surviving/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/pelay/Desktop/VITASurviving-main/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/pelay/Documents/Surviving/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/pelay/Desktop/VITASurviving-main/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/pelay/Documents/Surviving/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/pelay/Desktop/VITASurviving-main/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/pelay/Documents/Surviving/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/pelay/Desktop/VITASurviving-main/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/pelay/Documents/Surviving/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/Users/pelay/Desktop/VITASurviving-main/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/pelay/Documents/Surviving/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/pelay/Desktop/VITASurviving-main/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.AIModule.dll</HintPath>

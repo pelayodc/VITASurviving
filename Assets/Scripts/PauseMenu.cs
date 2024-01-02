@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour {
 
     [SerializeField] GameObject pnlPause;
     [SerializeField] GameObject pnlVictory;
+    [SerializeField] Button backBTN;
 
     void Update () {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetButtonDown("Pause"))
         {
             if(pnlPause.activeInHierarchy)
             {
@@ -47,6 +49,7 @@ public class PauseMenu : MonoBehaviour {
     public void PauseGame()
     {
         Time.timeScale = 0f;
+        backBTN.Select();
     }
 
     public void ResumeGame()

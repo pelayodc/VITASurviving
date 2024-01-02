@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelUpManager : MonoBehaviour {
 
@@ -30,6 +31,10 @@ public class LevelUpManager : MonoBehaviour {
             upgradeButtons[i].gameObject.SetActive(true);
             upgradeButtons[i].Set(upgradeDatas[i]);
         }
+
+        //TODO implements if there is not upgrades avalibles
+
+        upgradeButtons[0].GetComponent<Button>().Select();
 
         GetComponent<AudioSource>().Play();
     }

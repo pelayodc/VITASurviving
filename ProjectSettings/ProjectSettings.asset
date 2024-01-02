@@ -498,8 +498,8 @@ PlayerSettings:
   psp2NPCommsSig: 
   psp2ParamSfxPath: 
   psp2ManualPath: 
-  psp2LiveAreaGatePath: 
-  psp2LiveAreaBackroundPath: C:/Users/pelay/Downloads/bgimage.png
+  psp2LiveAreaGatePath: C:/Users/pelay/Documents/Captura.PNG
+  psp2LiveAreaBackroundPath: Assets/fondo.png
   psp2LiveAreaPath: 
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
@@ -522,8 +522,8 @@ PlayerSettings:
   psp2ShortTitle: VITA Surviving
   psp2ContentID: IV7689-KGHG89678_76-7895767893JNKIFD
   psp2Category: 0
-  psp2MasterVersion: 01.01
-  psp2AppVersion: 01.01
+  psp2MasterVersion: 01.02
+  psp2AppVersion: 01.02
   psp2TVBootMode: 0
   psp2EnterButtonAssignment: 2
   psp2TVDisableEmu: 0

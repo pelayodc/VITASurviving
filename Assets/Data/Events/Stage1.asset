@@ -16,98 +16,118 @@ MonoBehaviour:
     time: 30
     enemyToSpawn: {fileID: 1640805201366996, guid: fb4ccd05682f2d545824c601f119387b,
       type: 2}
-    count: 10
+    count: 15
+    done: 0
   - eventType: 3
     time: 60
     enemyToSpawn: {fileID: 1641748237622770, guid: 9254170f4005e1340895f878f7494562,
       type: 2}
     count: 15
+    done: 0
   - eventType: 1
     time: 90
     enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
       type: 2}
     count: 15
+    done: 0
   - eventType: 1
     time: 115
     enemyToSpawn: {fileID: 1640805201366996, guid: fb4ccd05682f2d545824c601f119387b,
       type: 2}
     count: 25
+    done: 0
   - eventType: 3
     time: 140
     enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
       type: 2}
     count: 0
+    done: 0
   - eventType: 1
     time: 160
     enemyToSpawn: {fileID: 1641748237622770, guid: 9254170f4005e1340895f878f7494562,
       type: 2}
     count: 10
+    done: 0
   - eventType: 1
     time: 170
     enemyToSpawn: {fileID: 1640805201366996, guid: fb4ccd05682f2d545824c601f119387b,
       type: 2}
     count: 10
+    done: 0
   - eventType: 1
     time: 200
     enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
       type: 2}
     count: 15
+    done: 0
   - eventType: 1
     time: 200
     enemyToSpawn: {fileID: 1641748237622770, guid: 9254170f4005e1340895f878f7494562,
       type: 2}
     count: 15
+    done: 0
   - eventType: 2
     time: 240
     enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
       type: 2}
     count: 1
+    done: 0
   - eventType: 1
     time: 300
     enemyToSpawn: {fileID: 1640805201366996, guid: fb4ccd05682f2d545824c601f119387b,
       type: 2}
     count: 15
+    done: 0
   - eventType: 1
     time: 330
     enemyToSpawn: {fileID: 1641748237622770, guid: 9254170f4005e1340895f878f7494562,
       type: 2}
     count: 20
+    done: 0
   - eventType: 3
     time: 400
     enemyToSpawn: {fileID: 1641748237622770, guid: 9254170f4005e1340895f878f7494562,
       type: 2}
     count: 0
+    done: 0
   - eventType: 2
     time: 420
     enemyToSpawn: {fileID: 1641748237622770, guid: 9254170f4005e1340895f878f7494562,
       type: 2}
     count: 0
+    done: 0
   - eventType: 1
     time: 430
     enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
       type: 2}
     count: 15
-  - eventType: 1
-    time: 450
-    enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
+    done: 0
+  - eventType: 4
+    time: 480
+    enemyToSpawn: {fileID: 1640805201366996, guid: fb4ccd05682f2d545824c601f119387b,
       type: 2}
-    count: 15
+    count: 1
+    done: 0
   - eventType: 3
     time: 500
     enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
       type: 2}
     count: 0
+    done: 0
   - eventType: 2
     time: 540
     enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
       type: 2}
     count: 1
+    done: 0
   - eventType: 2
     time: 540
     enemyToSpawn: {fileID: 1385507749677784, guid: 8c2a9b85b0d795741918364185ec600f,
       type: 2}
     count: 1
+    done: 0
   - eventType: 0
     time: 600
     enemyToSpawn: {fileID: 0}
     count: 0
+    done: 0
